@@ -1,1 +1,1 @@
-SELECT * FROM review_id_table;
+SELECT * FROM vine_table;

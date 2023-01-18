@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS review_id_table;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS vine_table;
+
 CREATE TABLE review_id_table (
   review_id TEXT PRIMARY KEY NOT NULL,
   customer_id INTEGER,
